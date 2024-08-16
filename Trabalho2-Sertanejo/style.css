@@ -292,6 +292,9 @@ button:hover .spanContainer {
     padding: 20px;
     margin-top: 60px;
 }
+.secaobio-container{
+    margin-bottom: 50px;
+}
 .secaobio h1 {
     color: #f7e0cb;
     font-size: 50px;
@@ -335,6 +338,7 @@ button:hover .spanContainer {
     max-width: 50%;
     padding: 20px;
     border-radius: 5%;
+    float: left;
     
 }
 
@@ -349,17 +353,13 @@ button:hover .spanContainer {
 }
 
 #bio-adicional {
-    margin: 800px 0 0 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px; 
     max-width: 40%; 
     background-color: #38545f;
     padding: 20px;
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: auto;
+    float: right;
   }
 
 #bio-adicional h2, h3, h4 {
@@ -379,6 +379,7 @@ button:hover .spanContainer {
 .bio-img {
     text-align: left;
     align-self: center;
+    margin: 0 0 0 50px\;
 }
 
 .bio-img img {
