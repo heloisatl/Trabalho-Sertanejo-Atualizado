@@ -6,7 +6,6 @@
 }
 nav {
     padding: 5px;
-
     padding: 0.3%;
     font-size: 20px;
     display: flex; 
@@ -46,6 +45,7 @@ body, html {
     margin: 0;
     background-color: #193441;
 }
+
 /* Flip Card CSS */
 .flip-card {
     background-color: transparent;
@@ -55,6 +55,7 @@ body, html {
     margin: 10px;
     transition: transform 0.3s;
 }
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -62,6 +63,7 @@ body, html {
     transition: transform 1s;
     transform-style: preserve-3d;
 }
+
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -70,6 +72,7 @@ body, html {
     border-radius: 10px;
     overflow: hidden;
 }
+
 /* Estilo para a frente do card */
 .flip-card-front img {
     width: 100%;
@@ -77,6 +80,7 @@ body, html {
     object-fit: cover;
     border-radius: 10px;
 }
+
 /* Estilo para o verso do card */
 .flip-card-back {
     background-color: #000;
@@ -88,6 +92,7 @@ body, html {
     text-align: center;
     padding: 20px;
 }
+
 /*** Direções do Flip ***/
 .flip-horizontal-right:hover .flip-card-inner {
     transform: rotateY(180deg);
@@ -118,9 +123,6 @@ body, html {
     background-size: cover; /* Faz a imagem de fundo cobrir todo o card */
     background-position: center; /* Centraliza a imagem de fundo */
     transition: transform 0.3s;
-}
-.card:hover {
-    transform: scale(1.05); /* Efeito de zoom no hover */
 }
 /* Estilo para a imagem dos cards */
 .card img {
