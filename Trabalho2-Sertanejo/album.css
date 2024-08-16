@@ -11,7 +11,6 @@ body {
 /* Estilo da Navegação */
 nav {
     padding: 5px;
-
     padding: 0.3%;
     font-size: 20px;
     display: flex; 
@@ -50,11 +49,9 @@ nav a:hover::after {
 /* Corpo da página */
 body {
     margin: 0;
-    font-family: sans-serif;
     background: #91AA9D;
     background-size: cover;
     color: white;
-    padding: 32px;
 }
 
 body::before {
@@ -67,11 +64,6 @@ body::before {
     height: 100%;
     z-index: -1;
     position: fixed;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 /* Títulos */
