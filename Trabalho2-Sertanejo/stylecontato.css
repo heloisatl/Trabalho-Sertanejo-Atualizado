@@ -25,7 +25,7 @@ nav {
 }
 
 nav a {
-  color: #f7e0cb;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 20px; 
   position: relative; 
@@ -37,7 +37,7 @@ nav a::after {
   content: " ";
   width: 0%;
   height: 2px; /* Espessura do sublinhado */
-  background-color: #f7e0cb;
+  background-color: #ffffff;
   position: absolute;
   bottom: -5px; 
   left: 0;
@@ -254,6 +254,7 @@ body.blur {
 
 /*** COMEÇO DA PARTE DE OUÇA ***/
 #ouca {
+  overflow: hidden;
   background-color: #273940;
   padding: 60px 20px;
   color: #f7e0cb;
