@@ -389,3 +389,123 @@ header {
 }
 
 
+
+@media screen and (max-width: 1150px) {
+  .timeline {
+      width: 80vw;
+  }
+
+  .timeline .checkpoint {
+      width: 100%;
+      transform: none;
+      padding-left: 0;
+      padding-right: 0;
+      border: none;
+      justify-content: flex-start; /* Alinha os checkpoints ao início da linha do tempo */
+  }
+
+  .timeline .checkpoint::before {
+      width: 3px;
+      height: 64px;
+      top: -32px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .timeline .checkpoint div::before {
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column; /* Alinhar conteúdo verticalmente em telas menores */
+    align-items: center; /* Centralizar o conteúdo */
+    height: auto; /* Remover a altura fixa */
+  }
+
+  #secao-img {
+    max-width: 100%; /* Fazer a imagem ocupar a largura máxima */
+    text-align: center;
+  }
+
+  #secao-img img {
+    width: 100%; /* Tornar a imagem responsiva */
+    max-width: 300px; /* Largura máxima */
+  }
+
+  #contato-inf {
+    max-width: 100%; /* Largura completa para a seção de contato */
+    margin-top: 20px; /* Espaço entre a imagem e a seção de contato */
+  }
+
+  #social-midia {
+    position: absolute; /* Manter os ícones ao lado, fixos na tela */
+    right: 10px; /* Ajustar a distância da borda direita */
+    top: 50%; /* Centralizar verticalmente */
+    transform: translateY(-50%); /* Ajustar para que fique centrado */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    font-size: 16px; /* Reduzir o tamanho da fonte da navbar */
+  }
+
+  nav a {
+    padding: 8px 15px; /* Reduzir o padding */
+  }
+
+  .photo img {
+    max-width: 100%; /* Ajustar o tamanho da imagem */
+    border-width: 5px; /* Reduzir a espessura da borda */
+  }
+
+  .tracks .btn {
+    padding: 20px 30px; /* Reduzir o padding dos botões */
+    width: 100%; /* Tornar os botões responsivos */
+  }
+
+  #social-midia {
+    position: absolute; /* Garantir que os ícones ainda estejam ao lado */
+    right: 5px; /* Ajustar a posição à direita */
+    top: 50%; /* Centralizar verticalmente */
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #ouca .content {
+    flex-direction: column; /* Mudar para coluna em telas menores */
+    gap: 20px; /* Reduzir o espaço entre a imagem e o conteúdo */
+  }
+
+  .tracks h2 {
+    font-size: 2em; /* Reduzir o tamanho do título */
+  }
+
+  .tracks .btn {
+    font-size: 1em; /* Reduzir o tamanho da fonte dos botões */
+  }
+
+  #contact-form {
+    width: 90%; /* Tornar o formulário responsivo */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px; /* Reduzir o tamanho da fonte dos inputs */
+  }
+
+  #social-midia {
+    position: fixed; /* Manter fixo na tela em dispositivos móveis */
+    right: 0; /* Fixar ao lado direito */
+    top: 50%; /* Centralizar verticalmente */
+    transform: translateY(-50%);
+  }
+}
+
