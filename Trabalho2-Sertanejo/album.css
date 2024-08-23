@@ -96,7 +96,6 @@ h2 {
 }
 
 .checkpoint {
-    max-width: 544px;
     padding: 32px 0; /* Ajusta o padding para garantir espaço para a linha vertical */
     position: relative;
     box-sizing: border-box;
