@@ -112,6 +112,7 @@ header {
   background-color: #38545f;
   border-radius: 15px;
   padding: 20px;
+  margin: 0 140px 0 0;
   color: #f7e0cb;
   font-size: 18px;
   flex: 1; /* Ocupará um espaço igual ao da seção de imagem */
