@@ -5,7 +5,7 @@
 }
 
 body {
-    padding-top: 60px; /* Ajuste este valor conforme a altura da sua navbar */
+    padding-top: 60px; 
     /* Outros estilos */
 }
 /* Estilo da Navegação */
@@ -92,7 +92,7 @@ h2 {
 .timeline {
     margin: 80px auto;
     max-width: 547px;
-    position: relative; /* Necessário para alinhar os checkpoints */
+    position: relative; /* Para alinhar os checkpoints */
 }
 
 .checkpoint {
@@ -177,7 +177,7 @@ h2 {
 .checkpoint img {
     width: 100%;
     height: auto;
-    max-width: 100%; /* Ajusta para que a imagem não ultrapasse o tamanho do container */
+    max-width: 100%; /* Ajusta a imagem não ultrapassar o tamanho do container */
     border-radius: 8px; /* Adiciona bordas arredondadas às imagens */
 }
 
